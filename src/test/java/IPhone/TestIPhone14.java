@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class TestIPhone14 {
+
+    /**
+     * This is a test case that verifies the cloning functionality of the IPhone14 class, ensuring that
+     * the cloned object has similar values to the original object.
+     */
     @Test
     public void testIphone14CloneHavingSimilarValues() {
         IPhone14 iPhone14 = new IPhone14(12345, "DEFAULT", 2, 1, 6);
@@ -16,6 +21,10 @@ public class TestIPhone14 {
         Assertions.assertEquals(iPhone14.getSpace(), iPhone14Black.getSpace());
     }
 
+    /**
+     * This is a test case that verifies the cloning functionality of the IPhone14 class, ensuring that
+     * the cloned object is a different location in memory than the original object.
+     */
     @Test
     public void testIphone14CloneObjectsAreDifferentLocation() {
         IPhone14 iPhone14 = new IPhone14(12345, "DEFAULT", 2, 1, 6);
