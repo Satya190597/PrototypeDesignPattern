@@ -3,7 +3,7 @@ In this repository, we are using the iPhone Example, where we have four prototyp
 iPhones: iPhone 14, iPhone 14 Max, iPhone 15, and iPhone 15 Max.
 We utilize the prototype design pattern to clone the objects and customize their features based on requirements.
 Additionally, we have a iphone prototype registry from which we can retrieve the prototype of each model with the help of the model name.
-# Ipmortant Classes.
+# Important Classes.
 - **IPhone14** - Prototype
 - **IPhone14Max** - Prototype
 - **IPhone15** - Prototype
